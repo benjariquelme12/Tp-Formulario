@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <script src="node.js"></script>
+</head>
+<body>
+    <form id="formulario" novalidate>
+        <label>Nombre:
+            <input type="text" name="nombre" required>
+        </label> <br>
+        <label>Apellido:
+            <input type="text" name="apellido" required>
+        </label> <br>
+        <label>Edad:
+            <input type="number" name="edad" required>
+        </label> <br>
+        <button type="submit">Enviar</button>
+        <p id="mensaje" role="alert"></p>
+    </form>
+    <ul id="lista"></ul>
+</body>
+</html>
